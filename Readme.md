@@ -48,7 +48,8 @@ docker compose up -d --build
 
 ## 🧪 **Ejecución de pruebas**
 
-El proyecto incluye pruebas unitarias y de integración usando **PHPUnit**.
+El proyecto incluye pruebas unitarias y de integración usando **PHPUnit**. Para ejecutarlas
+debemos esperar un momento hasta que se cree la base de datos
 
 ### **Ejecutar todas las pruebas**
 
@@ -81,7 +82,7 @@ make integration
 
 ```json
 {
-    "name": "César Herbozo",
+    "name": "Cesar Herbozo",
     "email": "cesarhm1687@gmail.com",
     "password": "StrongPass123!"
 }
